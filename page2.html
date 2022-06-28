@@ -7,10 +7,10 @@
 	<meta name="description" content="">
 	<meta name="viewport" content="width=device-width, initial-scale=1.0, viewport-fit=cover">
 
-	<link rel="shortcut icon" type="image/png" href="favicon.jpg">
+	<link rel="shortcut icon" type="image/png" href="/img/logo/favicon.png">
 
 	<link rel="stylesheet" type="text/css" href="./css/bootstrap.min.css">
-	<link rel="stylesheet" type="text/css" href="style.css">
+	<link rel="stylesheet" type="text/css" href="./css/style.css">
 	<link rel="stylesheet" type="text/css" href="./css/font-awesome.min.css">
 	<link rel="stylesheet" type="text/css" href="./css/et-line.min.css">
 
@@ -20,7 +20,7 @@
 	<script src="./js/blocs.min.js"></script>
 	<script src="./js/jqBootstrapValidation.js"></script>
 	<script src="./js/formHandler.js"></script>
-	<title>page2</title>
+	<title>Contact</title>
 
 
 	<!-- Analytics -->
@@ -33,37 +33,44 @@
 	<!-- Principal conteneur -->
 	<div class="page-container">
 
-		<!-- bloc-0 -->
-		<div class="bloc bgc-white l-bloc " id="bloc-0">
+		<!-- -HEADER -->
+		<header class="bloc bgc-white l-bloc" id="bloc-0">
 			<div class="container bloc-sm">
+				<!-- nav -->
 				<nav class="navbar row">
 					<div class="navbar-header">
-						<a class="navbar-brand" href="index.html"><img src="img/agence-la-panthere-monochrome.svg"
-								alt="atlanta web design logo" height="40" /></a>
-						<!-- PROBLEME BOUTTON -->
+
+						<a class="navbar-brand" href="index.html">
+							<img src="img/logo/agence-la-panthere.svg" alt="Logo la Panthere agence de webdesign à Lyon" />
+						</a>
+
+						<!-- burgerNav -->
 						<button id="nav-toggle" type="button" class="ui-navbar-toggle navbar-toggle" data-toggle="collapse"
 							data-target=".navbar-1">
-							<span class="sr-only">Toggle navigation</span><span class="icon-bar"></span><span
-								class="icon-bar"></span><span class="icon-bar"></span>
+							<span class="sr-only">Toggle navigation</span>
+							<span class="icon-bar"></span>
+							<span class="icon-bar"></span>
+							<span class="icon-bar"></span>
 						</button>
 					</div>
-					<!-- MENU -->
+
+					<!-- -Menu -->
 					<div class="collapse navbar-collapse navbar-1 special-dropdown-nav">
 						<ul class="site-navigation nav navbar-nav">
 							<li>
 								<a href="index.html">Accueil</a>
 							</li>
 							<li>
-							</li>
-							<li>
-								<a href="page2.html">page2 &gt;</a>
+								<a href="#bloc-4-portfolio">Nos réalisations</a>
 							</li>
 						</ul>
 					</div>
 				</nav>
 			</div>
-		</div>
-		<!-- bloc-0 END -->
+		</header>
+		<!-- HEADER END -->
+
+
 		<!-- Bloc 6 n'apparait pas  -->
 		<!-- bloc-6 -->
 		<div class="bloc bg-dots-bg bg-repeat bgc-atomic-tangerine d-bloc bloc-bg-texture texture-paper" id="bloc-6">
@@ -136,13 +143,14 @@
 
 
 		<!-- Footer - bloc-8 -->
-		<div class="bloc bgc-atomic-tangerine d-bloc" id="bloc-8">
+		<footer class="bloc bgc-atomic-tangerine d-bloc" id="bloc-8">
 			<div class="container bloc-sm">
 				<div class="row">
 					<div class="col-sm-12">
-						<p class="text-center white">
-							Agence La Panthère - Agence web basée à Lyon.<br>
-						</p>
+						<h4 class="text-center white">
+							Agence La Panthère - Agence web basée à Lyon.<br />
+						</h4>
+						<!-- Liens resaux sociaux -->
 						<div class="row row-no-gutters social">
 							<div class="col-sm-3">
 								<div class="text-center">
@@ -164,12 +172,13 @@
 									<a class="social" href="index.html"><span class="fa fa-instagram icon-md"></span></a>
 								</div>
 							</div>
+
 						</div>
 					</div>
 				</div>
 			</div>
-		</div>
-		<!-- Footer - bloc-8 END -->
+		</footer>
+		<!-- Footer - END -->
 
 	</div>
 	<!-- Principal conteneur END -->

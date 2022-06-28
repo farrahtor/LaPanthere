@@ -38,10 +38,10 @@ a:hover {
   background-size: cover;
   position: relative;
 }
-
-.bloc .container {
-  padding-left: 0;
-  padding-right: 0;
+.page-container {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
 }
 
 .bloc-lg {
@@ -295,24 +295,10 @@ a:hover {
 .navbar-brand {
   height: auto;
   padding: 3px 15px;
-  font-size: 25px;
-  font-weight: normal;
-  font-weight: 600;
-  line-height: 44px;
-}
-
-.navbar-brand img {
-  max-height: 200px;
-  margin: 0 5px 0 0;
-  display: inline;
 }
 
 .navbar-brand img[src$="svg"] {
-  min-width: 100px;
-}
-
-.nav-center .navbar-brand img {
-  margin: 0;
+  min-width: 250px;
 }
 
 .navbar .nav {
@@ -812,19 +798,19 @@ h4 {
 }
 
 .bg-dots-bg {
-  background-image: url("img/dots-bg.png");
+  background-image: url("/img/dots-bg.png");
 }
 
 .bg-lines-h2-bg {
-  background-image: url("img/lines-h2-bg.png");
+  background-image: url("/img/lines-h2-bg.png");
 }
 
 .bg-banniere {
-  background-image: url("img/banner-1920.jpg");
+  background-image: url("/img/banner-1920.jpg");
 }
 
 .bg-presentation {
-  background-image: url("img/image-de-presentation-1920.jpg");
+  background-image: url("/img/image-de-presentation-1920.jpg");
 }
 
 @media (max-width: 1024px) {
