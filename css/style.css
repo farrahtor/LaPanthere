@@ -639,7 +639,7 @@ label,
 a {
   font-family: "helvetica";
   font-weight: 400;
-  color: #575757 !important;
+  color: #575757;
 }
 
 .container {
@@ -665,7 +665,7 @@ a {
 }
 
 p {
-  font-size: 11px;
+  font-size: 13px;
 }
 
 .tight-width-whitespace {
@@ -711,7 +711,7 @@ h3 {
 }
 
 h1 {
-  color: #333333 !important;
+  color: #fff;
 }
 
 h4 {
@@ -763,12 +763,12 @@ h4 {
 }
 
 .tc-white {
-  color: #f3976c !important;
+  color: #fff;
 }
 
 .btn-atomic-tangerine {
   background: #f3976c;
-  color: #ffffff !important;
+  color: #ffffff;
 }
 
 .btn-atomic-tangerine:hover {
@@ -944,7 +944,6 @@ h4 {
     box-shadow: none;
   }
   .navbar-brand img {
-    max-height: 40px;
     width: auto;
   }
   .nav-invert .navbar-header {
